@@ -1,4 +1,4 @@
-// Функция лайка (пока оставляем локальной, далее добавим API)
+// Функция лайка
 export const likeCard = (likeButton) => {
   likeButton.classList.toggle("card__like-button_is-active");
 };
