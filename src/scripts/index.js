@@ -67,11 +67,11 @@ const usersStatsModalWindow = document.querySelector(".popup_type_info");
 const usersStatsModalTitle =
   usersStatsModalWindow.querySelector(".popup__title");
 const usersStatsModalInfoList =
-  usersStatsModalWindow.querySelector(".popup__info"); // Изменено
+  usersStatsModalWindow.querySelector(".popup__info");
 const usersStatsModalUsersTitle =
-  usersStatsModalWindow.querySelector(".popup__text"); // Для заголовка "Участники"
+  usersStatsModalWindow.querySelector(".popup__text");
 const usersStatsModalUserList =
-  usersStatsModalWindow.querySelector(".popup__list"); // Изменено
+  usersStatsModalWindow.querySelector(".popup__list");
 
 // Кнопки открытия и элементы профиля
 const openProfileFormButton = document.querySelector(".profile__edit-button");
