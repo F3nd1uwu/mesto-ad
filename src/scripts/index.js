@@ -116,7 +116,7 @@ const createInfoString = (label, value) => {
   return element;
 };
 
-// Создание аватарки пользователя (Шаблон)
+// Создание никнейма пользователя (Шаблон)
 const createUserPreview = (userName) => {
   const template = document.querySelector(
     "#popup-info-user-preview-template",
@@ -212,7 +212,6 @@ const handleLogoClick = () => {
   usersStatsModalInfoList.innerHTML = "";
   usersStatsModalUserList.innerHTML = "";
 
-  // Устанавливаем заголовки как на картинке
   usersStatsModalWindow.querySelector(".popup__title").textContent =
     "Статистика пользователей";
   usersStatsModalWindow.querySelector(".popup__text").textContent =
