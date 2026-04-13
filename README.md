@@ -39,5 +39,6 @@ npm run dep
 
 ---
 
-Ссылки на репозиторий: [приватный репозиторий с кодом](https://github.com/F3nd1uwu/mesto-ad) [публичный репозиторий с GitHab Pages](https://github.com/F3nd1uwu/mesto-production)
+Ссылки на репозиторий: [приватный репозиторий с кодом](https://github.com/F3nd1uwu/mesto-ad) | [публичный репозиторий с GitHab Pages](https://github.com/F3nd1uwu/mesto-production)
+
 Ссылка на опубликованный проект (GitHub Pages): [ссылка](https://f3nd1uwu.github.io/mesto-production/)

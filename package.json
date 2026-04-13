@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://f3nd1uwu.github.io/mesto-production/",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
