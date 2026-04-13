@@ -33,7 +33,7 @@ npm run dev
 npm run build
 
 Команда для публикации:
-npm run deploy
+npm run dep
 
 Для того чтобы проект был доступен для онлайн-просмотра, используется GitHub Pages.
 
