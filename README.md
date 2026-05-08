@@ -46,6 +46,4 @@ npm install
 
 ## Ссылки
 
-- Репозиторий с кодом: [mesto-ad](https://github.com/F3nd1uwu/mesto-ad)
-- Репозиторий GitHub Pages: [mesto-production](https://github.com/F3nd1uwu/mesto-production)
 - Опубликованный проект: https://f3nd1uwu.github.io/mesto-production/
