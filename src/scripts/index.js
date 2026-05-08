@@ -208,14 +208,11 @@ const handleDeleteCardClick = (cardElement, cardId) => {
 };
 
 const handleLogoClick = () => {
-  // Очистка
-  usersStatsModalInfoList.innerHTML = "";
-  usersStatsModalUserList.innerHTML = "";
+  usersStatsModalInfoList.replaceChildren();
+  usersStatsModalUserList.replaceChildren();
 
-  usersStatsModalWindow.querySelector(".popup__title").textContent =
-    "Статистика пользователей";
-  usersStatsModalWindow.querySelector(".popup__text").textContent =
-    "Все пользователи:";
+  usersStatsModalTitle.textContent = "Статистика пользователей";
+  usersStatsModalUsersTitle.textContent = "Все пользователи:";
 
   getCardList()
     .then((cards) => {
